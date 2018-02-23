@@ -1,5 +1,6 @@
 function Somar(){
-    var x = 10;
-    var y = 20;
+    var x = getElementById("campo1");
+    var y = getElementById("campo2");
     return x + y;
 }
+alert(Somar());
