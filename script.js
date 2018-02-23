@@ -1,6 +1,7 @@
-function Somar(){
-    var x = getElementById("campo1");
-    var y = getElementById("campo2");
-    return x + y;
+function somar(){
+    var x = parseInt(document.getElementById("campo1").value);
+    var y = parseInt(document.getElementById("campo2").value);
+    
+    var soma = x+y;
+    alert(soma);
 }
-alert(Somar());
